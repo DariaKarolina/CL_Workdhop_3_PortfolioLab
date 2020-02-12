@@ -1,0 +1,7 @@
+@import "./scss/reset.scss";
+@import "./scss/settings/fonts";
+@import "./scss/settings/colors";
+
+body{
+  font-family: $font-base;
+}
