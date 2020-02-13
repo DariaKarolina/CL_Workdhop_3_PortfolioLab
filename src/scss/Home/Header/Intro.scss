@@ -1,0 +1,35 @@
+@import "./Decor.scss";
+
+.intro{
+    margin-top: 110px;
+    width: 674px;
+    height: 350px;
+    text-align: center;
+    margin-right: 150px;
+    font-weight: 400;
+    color: $color-dark-grey;
+
+
+    h1{
+        font-weight: 400;
+        color: $color-dark-grey;
+        font-size: 36px;
+    }
+    ul{
+        justify-content: space-between;
+        li{
+            padding: 13px 93px;
+            font-weight: 200;
+            font-size: 34px;
+            border: 0.75px solid $color-dark-grey;
+            
+            &:last-of-type{
+                padding: 13px 51px;
+                margin-left: 44px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -2,6 +2,8 @@
 @import "./scss/settings/fonts";
 @import "./scss/settings/colors";
 
+@import "./scss/Home/Home.scss";
+
 body{
   font-family: $font-base;
 }
