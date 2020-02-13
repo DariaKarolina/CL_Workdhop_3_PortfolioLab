@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+//have to make li elemengts as links!
 class Intro extends Component{
     render(){
         return (

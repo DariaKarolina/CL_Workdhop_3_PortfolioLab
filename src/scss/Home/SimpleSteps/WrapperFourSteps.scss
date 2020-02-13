@@ -1,0 +1,66 @@
+.wrapperFourSteps{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color: $color-whiteish;
+    text-align: center;
+    width: 100%;
+    height: 325px;
+}
+.icon{
+    width: 83px;
+    height: 83px;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stepFirst{
+    width: 130px;
+    height: 172px;
+    .icon{
+        background-image: url("../../../assets/Icon-1.svg");
+        margin: 0 auto 8px auto;
+    }
+}
+.stepSecond{
+    width: 134px;
+    height: 178px;
+    .icon{
+        background-image: url("../../../assets/Icon-2.svg");
+        margin: 0 auto 10px auto;
+    }
+}
+.stepThird{
+    width: 138px;
+    height: 190px;
+    .icon{
+        background-image: url("../../../assets/Icon-3.svg");
+        margin: 10px auto 6px auto;
+    }
+}
+.stepFourth{
+    width: 168px;
+    height: 175px;
+    .icon{
+        background-image: url("../../../assets/Icon-4.svg");
+        margin: 0 auto 7px auto;
+    }
+}
+.steps{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8.5px;
+    //why &:after jest liniowo a nie blokowo?
+}
+.iGaveUpLine{
+    height: 1px;
+    width: 70px;
+    border-bottom: 1px solid $color-dark-grey;
+    margin: 0 auto;
+}
+.stepsDesc{
+    margin-top: 8.5px;
+    font-size: 16px;
+    font-weight: 400;
+}
