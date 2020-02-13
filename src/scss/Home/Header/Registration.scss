@@ -1,0 +1,17 @@
+.registration{
+    margin-bottom: 26px;
+    margin-right: 10px;
+    width: 200px;
+    height: 36px;
+    font-size: 14px;
+    color: $color-light-grey;
+    li{
+        padding: 9px 10px;
+        border: 0.75px solid transparent;
+    
+        &:hover{
+            border: 0.75px solid $color-yellow;
+            cursor: pointer;
+        }
+    }
+}
