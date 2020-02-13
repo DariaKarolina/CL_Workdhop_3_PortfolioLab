@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "../../main.scss";
-import HomeHeader from './HomeHeader/HomeHeader';
+import HomeHeader from './Header/HomeHeader';
+import ThreeColumns from './ThreeColumns/ThreeColumns';
 
 
 class Home extends Component{
@@ -9,7 +10,7 @@ class Home extends Component{
             <>
                 <div className="home">
                     <HomeHeader />
-                    <div className="threeColumns"></div>
+                    <ThreeColumns />
                     <div className="simpleSteps"></div>
                     <div className="aboutUs"></div>
                     <div className="whoWeHelp"></div>
