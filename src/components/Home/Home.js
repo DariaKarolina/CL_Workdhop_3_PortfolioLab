@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+
 import "../../main.scss";
 import HomeHeader from './Header/HomeHeader';
 import ThreeColumns from './ThreeColumns/ThreeColumns';
 import SimpleSteps from "./SimpleSteps/SimpleSteps";
 import AboutUs from "./AboutUs/AboutUs";
+import WhoWeHelp from './WhoWeHelp/WhoWeHelp'
+import Contact from "./Contact/Contact";
 
 
 class Home extends Component{
@@ -15,10 +18,8 @@ class Home extends Component{
                     <ThreeColumns />
                     <SimpleSteps />
                     <AboutUs />
-                    <div className="whoWeHelp"></div>
-                    <div className="contact">
-                        <div className="footer"></div>
-                    </div>
+                    <WhoWeHelp />
+                    <Contact />
                 </div>
             </>
         )
