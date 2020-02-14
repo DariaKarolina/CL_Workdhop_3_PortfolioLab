@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import WrapperAbout from './WrapperAbout';
-// import QuantityOfBags from "./QuantityOfBags";
-// import HelpedOrganizations from './HelpedOrganizations';
-// import OrganizedCollections from './OrganizedColletcions';
+
 
 
 class AboutUs extends Component{

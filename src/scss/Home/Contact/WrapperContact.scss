@@ -1,0 +1,15 @@
+@import "./ContactForm.scss";
+
+.wrapperContact{
+    width: 550px;
+    height: 925px;
+    margin-right: 50px;
+    h2{
+        font-size: 38px;
+        font-weight: 200;
+        width: 380px;
+        height: 52px;
+        margin: 100px auto 25px auto;
+        color: $color-dark-grey;
+    }
+}

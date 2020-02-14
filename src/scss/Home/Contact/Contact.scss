@@ -1,0 +1,25 @@
+@import "./WrapperContact.scss";
+@import "./Footer.scss";
+
+//make icons links as pseudo socials?
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../../assets/Background-Contact-Form.jpg");
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        opacity: .25;
+    }
+}

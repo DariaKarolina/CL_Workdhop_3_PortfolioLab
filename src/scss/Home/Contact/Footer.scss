@@ -1,0 +1,11 @@
+@import "./Icons.scss";
+
+.footer{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-dark-grey;
+    margin: 0 auto 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+.icons{
+    width: 80px;
+    height: 30px;
+    margin: 0 50px 0 550px;
+    display: flex;
+
+    .iconFacebook{
+        background-image: url(../../../assets/Facebook.svg);
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .iconInstagram{
+        background-image: url(../../../assets/Instagram.svg);
+        width: 30px;
+        height: 30px;
+    }  
+}
