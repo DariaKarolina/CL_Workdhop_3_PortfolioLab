@@ -6,12 +6,12 @@ class SimpleSteps extends Component{
     render(){
         return (
             <>
-                <div className="simpleSteps">
+                <section className="simpleSteps">
                     <h2>Wystarczą 4 proste kroki</h2>
                     <div className="decor"></div>
                     <WrapperFourSteps />
                     <Btn txt="ODDAJ RZECZY" />
-                </div>
+                </section>
             </>
         )
     }

@@ -1,0 +1,16 @@
+@import "./WrapperAbout.scss";
+
+.wrapperAboutUs{
+    width: 100%;
+    height: 100vh;
+    background-color: $color-whiteish;
+    display: flex;
+}
+.imgPeople{
+    width: calc(100%/ 2);
+    background-image: url("../../../assets/People.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

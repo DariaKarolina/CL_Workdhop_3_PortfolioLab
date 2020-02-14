@@ -8,11 +8,11 @@ class ThreeColumns extends Component{
     render(){
         return (
             <>
-                <div className="threeColumns">
+                <section className="threeColumns">
                     <QuantityOfBags />
                     <HelpedOrganizations />
                     <OrganizedCollections />
-                </div>
+                </section>
             </>
         )
     }
