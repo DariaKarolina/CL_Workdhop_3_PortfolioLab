@@ -1,0 +1,29 @@
+.wrapperAbout{
+    width: calc(100%/ 2);
+    display: flex;
+    flex-wrap: wrap;
+    color: $color-dark-grey;
+    h2{
+        width: 150px;
+        height: 52px;
+        font-size: 38px;
+        font-weight: 200;
+        margin: 100px 325px 0 325px;
+    }
+    p{
+        font-size: 30px;
+        width: 656.9px;
+        height: 208.91px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.signature{
+    background-image: url("../../../assets/Signature.svg");
+    width: 209.25px;
+    height: 148.84px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 490px;
+}

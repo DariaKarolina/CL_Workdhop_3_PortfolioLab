@@ -3,6 +3,7 @@ import "../../main.scss";
 import HomeHeader from './Header/HomeHeader';
 import ThreeColumns from './ThreeColumns/ThreeColumns';
 import SimpleSteps from "./SimpleSteps/SimpleSteps";
+import AboutUs from "./AboutUs/AboutUs";
 
 
 class Home extends Component{
@@ -13,7 +14,7 @@ class Home extends Component{
                     <HomeHeader />
                     <ThreeColumns />
                     <SimpleSteps />
-                    <div className="aboutUs"></div>
+                    <AboutUs />
                     <div className="whoWeHelp"></div>
                     <div className="contact">
                         <div className="footer"></div>

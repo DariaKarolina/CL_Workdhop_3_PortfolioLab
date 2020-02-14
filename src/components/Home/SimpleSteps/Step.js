@@ -5,9 +5,9 @@ class Step extends Component{
         return (
             <>
                 <div className="icon"></div>
-                <div className="steps">{this.props.sname}</div>
+                <p className="steps">{this.props.sname}</p>
                 <div className="iGaveUpLine"></div>
-                <div className="stepsDesc">{this.props.sdesc}</div>  
+                <p className="stepsDesc">{this.props.sdesc}</p>  
             </>
         )
     }
