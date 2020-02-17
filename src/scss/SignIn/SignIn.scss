@@ -1,0 +1,19 @@
+.signIn{
+    display: flex;
+}
+.wrapperSignIn{
+    margin: 30px auto 0 auto;
+    h1{
+        font-size: 40px;
+        font-weight: 200;
+        color: $color-dark-grey;
+        margin: 0 auto;
+        width: 218px;
+    }
+    .wrapperFormButtons{
+        margin-top: 20px;
+    }
+}
+.formSignIn{
+    height: 800px;
+}

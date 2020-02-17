@@ -5,7 +5,7 @@ class FormEmail extends Component{
         return (
             <>
                 <label for="formEmail">Email</label>
-                <input type="email" name="formEmail"></input>
+                <input type="email" name="formEmail" autoComplete="email"></input>
             </>
         )
     }
