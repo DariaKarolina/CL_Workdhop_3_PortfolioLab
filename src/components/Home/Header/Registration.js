@@ -7,10 +7,12 @@ class Registration extends Component{
             <>
                 <div className="registration">
                     <ul>
-                        {/* <Link to="/logowanie"> */}
+                        <Link to="/logowanie">
                             <li>Zaloguj</li>
+                        </Link>
+                        <Link to="rejestracja">
                             <li>Załóż konto</li>
-                        {/* </Link> */}
+                        </Link>
                     </ul>
                 </div>
             </>

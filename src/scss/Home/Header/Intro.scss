@@ -16,16 +16,25 @@
         font-size: 36px;
     }
     ul{
+        width: 674px;
+        display: flex;
         justify-content: space-between;
         li{
-            padding: 13px 93px;
             font-weight: 200;
             font-size: 34px;
             border: 0.75px solid $color-dark-grey;
+            color: $color-dark-grey;
+            font-family: $font-base;
+            width: 310px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
             &:last-of-type{
-                padding: 13px 51px;
-                margin-left: 44px;
+                position: relative;
+                top: -120px;
+                left: 364px;
             }
             &:hover{
                 cursor: pointer;
