@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
-//have to make li elemengts as links!
 class Intro extends Component{
     render(){
         return (
@@ -11,8 +11,10 @@ class Intro extends Component{
                     </h1>
                     <div className="decor"></div>
                     <ul>
-                        <li>ODDAJ RZECZY</li>
-                        <li>ZORGANIZUJ ZBIÓRKĘ</li>
+                        <Link to="/logowanie">
+                            <li>ODDAJ RZECZY</li>
+                            <li>ZORGANIZUJ ZBIÓRKĘ</li>
+                        </Link>
                     </ul>
                 </div>
             </>

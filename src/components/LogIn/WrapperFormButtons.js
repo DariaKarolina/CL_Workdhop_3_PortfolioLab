@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
-
+import {Link} from "react-router-dom";
 
 class WrapperFormButtons extends Component{
     render(){
         return (
             <>
                 <div className="wrapperFormButtons">
-                    <button>Załóż konto</button>
-                    <button>Zaloguj się</button>
+                    <Link to="/rejestracja">
+                        <button>Załóż konto</button>
+                    </Link>
+                    <Link to="/logowanie">
+                        <button>Zaloguj się</button>
+                    </Link>
                 </div>
             </>
         )
