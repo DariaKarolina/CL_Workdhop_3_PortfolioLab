@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
-import WrapperFormLogIn from './WrapperFormLogIn';
+import WrapperFormSignIn from './WrapperFormSignIn';
 
-
-class WrapperLogIn extends Component{
+class WrapperSignIn extends Component{
     render(){
         return (
             <>
-                <div className="wrapperLogIn">
+                <div className="wrapperSignIn">
                     <h1>{this.props.log}</h1>
                     <div className="decor"></div>
-                    <WrapperFormLogIn />
+                    <WrapperFormSignIn />
                 </div>
             </>
         )
     }
 }
 
-export default WrapperLogIn;
+export default WrapperSignIn;

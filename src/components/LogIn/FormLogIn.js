@@ -8,7 +8,7 @@ class FormLogIn extends Component{
             <>
                 <form className="formLogIn">
                     <FormEmail />
-                    <FormPassword />
+                    <FormPassword/>
                 </form>
             </>
         )

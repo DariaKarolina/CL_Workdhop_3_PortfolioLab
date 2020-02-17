@@ -5,11 +5,12 @@
     height: 235px;
     flex-direction: column;
     margin: 0 auto;
+    padding-bottom: 40px;
     label{
     font-size: 16px;  
     font-weight: 600; 
     color: $color-dark-grey;
-    margin: 30px 67px 0 67px;
+    margin: 30px 67px 5px 67px;
     }
     input{
         width: 250px;
@@ -20,6 +21,7 @@
         width: 250px;
         height: 42px;
         margin: 0 auto;
+        padding: 0 12px;
     }
     
 }

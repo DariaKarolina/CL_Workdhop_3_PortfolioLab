@@ -9,7 +9,7 @@ class LogIn extends Component{
             <>
             <div className="logIn">
                 <TopMenu />
-                <WrapperLogIn />
+                <WrapperLogIn log="Zaloguj się"/>
             </div>
             </>
         )
