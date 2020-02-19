@@ -8,7 +8,7 @@ class ThreeColumns extends Component{
     render(){
         return (
             <>
-                <section className="threeColumns">
+                <section className="threeColumns" id="threeColumns">
                     <QuantityOfBags />
                     <HelpedOrganizations />
                     <OrganizedCollections />

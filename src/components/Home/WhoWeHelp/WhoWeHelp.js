@@ -5,7 +5,7 @@ class WhoWeHelp extends Component{
     render(){
         return (
             <>
-                <section className="whoWeHelp">
+                <section className="whoWeHelp" id="whoWeHelp">
                     <h2>Komu pomagamy?</h2>
                     <div className="decor"></div>
                     <ul className="whoWeHelpTypes">

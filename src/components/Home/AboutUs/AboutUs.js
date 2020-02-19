@@ -7,7 +7,7 @@ class AboutUs extends Component{
     render(){
         return (
             <>
-                <section className="wrapperAboutUs">
+                <section className="wrapperAboutUs" id="aboutUs">
                     <WrapperAbout />
                     <div className="imgPeople"></div>
                 </section>
