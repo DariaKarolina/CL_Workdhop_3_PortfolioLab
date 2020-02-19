@@ -8,11 +8,11 @@ class ContactForm extends Component{
     render(){
         return (
             <>
-                <form className="contactForm" action="" method="get">
-                            <GroupNameEmail />
-                            <Message />
-                            <Submit />
-                </form>
+                <form className="contactForm" onSubmit={this.handleNameChange}>
+                    <GroupNameEmail />
+                    <Message />
+                    <Submit />
+                </form>   
             </>
         )
     }

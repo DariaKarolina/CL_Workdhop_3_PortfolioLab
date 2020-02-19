@@ -6,7 +6,7 @@ class HomeHeader extends Component{
     render(){
         return (
             <>
-                <header className="homeHeader">
+                <header className="homeHeader" id="home">
                             <TopMenu />
                             <Intro />
                 </header>

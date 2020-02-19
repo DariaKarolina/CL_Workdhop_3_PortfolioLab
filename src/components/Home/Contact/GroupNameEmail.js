@@ -9,7 +9,7 @@ class GroupNameEmail extends Component{
                 <div className="groupNameEmail">
                     <GroupName />
                     <GroupEmail />
-                </div>
+                    </div>
             </>
         )
     }

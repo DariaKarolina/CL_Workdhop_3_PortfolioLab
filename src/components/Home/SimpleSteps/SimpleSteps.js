@@ -6,7 +6,7 @@ class SimpleSteps extends Component{
     render(){
         return (
             <>
-                <section className="simpleSteps">
+                <section className="simpleSteps" id="simpleSteps">
                     <h2>Wystarczą 4 proste kroki</h2>
                     <div className="decor"></div>
                     <WrapperFourSteps />
