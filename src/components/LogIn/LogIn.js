@@ -59,6 +59,7 @@ class LogIn extends Component{
         }
         if (!errors.length > 0) {
             console.log("Submitted !", this.state);
+            alert("Submitted!");
         }
         
     }
