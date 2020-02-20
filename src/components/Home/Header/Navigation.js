@@ -12,7 +12,7 @@ class Navigation extends Component{
                         <NavLink to="/">
                             <li>Start</li>
                         </NavLink>
-                        <Link to="threeColumns"
+                        <Link to="simpleSteps"
                         smooth={true}
                         duration={1200}>
                             <li>O co chodzi?</li>
