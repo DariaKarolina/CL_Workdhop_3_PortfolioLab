@@ -4,7 +4,8 @@ class FormPassword extends Component{
     render(){
         return (
             <>
-                
+                <label for="formPassword">Hasło</label>
+                <input type="password" name="formPassword"></input>
             </>
         )
     }
