@@ -6,10 +6,7 @@ class WrapperFormLogIn extends Component{
     render(){
         return (
             <>
-                <div className="wrapperFormLogIn">
-                    <FormLogIn />
-                    <WrapperFormButtons />
-                </div>
+                
             </>
         )
     }
