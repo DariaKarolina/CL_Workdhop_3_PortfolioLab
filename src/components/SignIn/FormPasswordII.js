@@ -4,8 +4,7 @@ class FormPasswordII extends Component{
     render(){
         return (
             <>
-                    <label for="formPasswordII">Powtórz hasło</label>
-                    <input type="password" name="formPasswordII"></input>
+                    
             </>
         )
     }
