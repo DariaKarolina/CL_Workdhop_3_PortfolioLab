@@ -1,6 +1,9 @@
 .errorEmail,
 .errorPassword,
-.errorPasswordRep{
+.errorPasswordRep,
+.errorName,
+.errorEmail2,
+.errorMessage{
     color: red;
     margin-left: 67px;
     padding-top: 5px;
@@ -10,4 +13,15 @@
 }
 .errorPasswordRep{
     top: -5.5px;
+}
+.errorName,
+.errorEmail2,
+.errorMessage{
+    margin-left: 0;
+    top: -2.9px;
+    width: 265px;
+}
+.errorMessage{
+    top: -17px;
+    width: 550px;
 }

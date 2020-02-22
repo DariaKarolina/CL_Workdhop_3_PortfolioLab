@@ -6,10 +6,7 @@ class GroupNameEmail extends Component{
     render(){
         return (
             <>
-                <div className="groupNameEmail">
-                    <GroupName />
-                    <GroupEmail />
-                    </div>
+                
             </>
         )
     }

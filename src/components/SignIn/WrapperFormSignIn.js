@@ -12,7 +12,7 @@ class WrapperFormSignIn extends Component{
                     {/* <WrapperFormButtons /> */}
                     <div className="wrapperFormButtons">
                                 <Link to="/logowanie">
-                                    <button type="submit" form="formLogIn">Zaloguj się</button>
+                                    <button type="submit" form="formSignIn">Zaloguj się</button>
                                 </Link>
                                 {/* <Link to="/rejestracja"> */}
                                     <button form="formSignIn">Załóż konto</button>

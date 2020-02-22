@@ -7,8 +7,7 @@ class WrapperContact extends Component{
         return (
             <>
                 <div className="wrapperContact">
-                    <h2>Skontaktuj się z nami</h2>
-                    <div className="decor"></div> 
+                    <h2>Skontaktuj się z nami</h2> 
                     <ContactForm />
                 </div>
             </>
