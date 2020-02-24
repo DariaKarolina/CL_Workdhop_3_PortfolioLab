@@ -31,10 +31,23 @@ class ContactForm extends Component{
         const errorMessage=document.querySelector(".errorMessage");
         const success=document.querySelector(".success");
 
+        function countWords(str) {
+                return str.trim().split(/\s+/).length;  
+            }
+            
+            if(countWords(this.state.name) !==1){
+                errorName.innerHTML = "Podane imię jest nieprawidłowe!";
+                errorName.style.borderTop="2px solid red";
+            return 
+            }
+            else{
+                errorName.innerHTML = "";
+                errorName.style.display="none";
+            };
+        
         if(!this.state.name){
             errors.push("Brak imienia");
             errorName.innerHTML = "Brak imienia!";
-            // errorName.innerHTML = "Podane imię jest nieprawidłowe!";
             errorName.style.borderTop="2px solid red";
             return
         }
@@ -67,6 +80,8 @@ class ContactForm extends Component{
             console.log("Submitted !", this.state);
             success.style.display="block";
         }
+
+        
         
     }
     render(){
@@ -82,7 +97,7 @@ class ContactForm extends Component{
                         <div className="groupNameEmail">
                             <div className="groupName">
                                 <label>Wpisz swoje imię
-                                    <input name="name" type="text" placeholder="Krzysztof" autoComplete="name" value={this.state.name} onChange={this.handleChange}></input>
+                                    <input name="name" type="text" placeholder="Krzysztof" autoComplete="name" value={this.state.name} onChange={this.handleChange} onInput={this.handleChangeName}></input>
                                 </label>
                                 <div className="error errorName">{this.props.errors}</div>
                             </div> 
