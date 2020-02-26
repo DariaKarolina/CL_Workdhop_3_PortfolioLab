@@ -1,98 +1,98 @@
 {
   "fundations": [
     {"id": 1,
-    "nameOfFundation": "Dbam o Zdrowie",
-    "fundationGoals": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-    "fundationNeeds": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    "name": "Dbam o Zdrowie",
+    "subtitle": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "description": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
     },
     {"id": 2,
-    "nameOfFundation":  "Dla dzieci",
-    "fundationGoals": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
-    "fundationNeeds": "ubrania, meble, zabawki"
+    "name":  "Dla dzieci",
+    "subtitle": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+    "description": "ubrania, meble, zabawki"
     },
     {"id": 3,
-      "nameOfFundation": "Bez domu",
-      "fundationGoals": "Cel i misja: Pomoc osobom nie posiadającym miejsca zamieszkania.",
-      "fundationNeeds": "ubrania, jedzenie, ciepłe koce"
+      "name": "Bez domu",
+      "subtitle": "Cel i misja: Pomoc osobom nie posiadającym miejsca zamieszkania.",
+      "description": "ubrania, jedzenie, ciepłe koce"
     },
     {"id": 4,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 4' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 4' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 5,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 5' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 5' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 6,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 6' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 6' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 7,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 7' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 7' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 8,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 8' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 8' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 9,
-      "nameOfFundation": "Fundacja 'Lorem ipsum 9' ",
-      "fundationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "fundationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Fundacja 'Lorem ipsum 9' ",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     }
   ],
   "organizations": [
     {"id": 1,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 1'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 1'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 2,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 2'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 2'",
+      "subtitle": "omg Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 3,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 3'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 3'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 4,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 4'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 4'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 5,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 5'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 5'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 6,
-      "nameOfOrganization": "Organizacja 'Lorem ipsum 6'",
-      "organizationGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "organizationNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Organizacja 'Lorem ipsum 6'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     }
   ],
   "zbiorki": [
     {"id": 1,
-      "nameOfCollection": "Zbiórka 'Lorem ipsum 1'",
-      "collectionGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "collectionNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Zbiórka 'Lorem ipsum 1'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 2,
-      "nameOfCollection": "Zbiórka 'Lorem ipsum 2'",
-      "collectionGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "collectionNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Zbiórka 'Lorem ipsum 2'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     },
     {"id": 3,
-      "nameOfCollection": "Zbiórka 'Lorem ipsum 3'",
-      "collectionGoals": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
-      "collectionNeeds": "Lorem ipsum dolor sit amet."
+      "name": "Zbiórka 'Lorem ipsum 3'",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet lacus et.",
+      "description": "Lorem ipsum dolor sit amet."
     }
   ]
 }
