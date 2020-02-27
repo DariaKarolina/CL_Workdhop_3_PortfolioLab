@@ -81,9 +81,9 @@ class WhoWeHelp extends Component{
                     <h2>Komu pomagamy?</h2>
                     <div className="decor"></div>
                     <ul className="whoWeHelpTypes">
-                        <li id="fundations" onClick={this.handleClick} onMouseDown={this.handleNewClick}>Fundacjom</li>
-                        <li id="organizations" onClick={this.handleClick} onMouseDown={this.handleNewClick}>Organizacjom pozarządowym</li>
-                        <li id="zbiorki" onClick={this.handleClick} onMouseDown={this.handleNewClick}>Lokalnym zbiórkom</li>
+                        <li id="fundations" onClick={this.handleClick}>Fundacjom</li>
+                        <li id="organizations" onClick={this.handleClick}>Organizacjom pozarządowym</li>
+                        <li id="zbiorki" onClick={this.handleClick}>Lokalnym zbiórkom</li>
                     </ul>
                     <div className="wrapperWeCooperateWith">
                         <p className="mainParagHere">W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
