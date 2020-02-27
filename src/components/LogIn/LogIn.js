@@ -58,46 +58,42 @@ class LogIn extends Component{
             
         }
         if (!errors.length > 0) {
-            console.log("Submitted !", this.state);
-            alert("Submitted!");
+            console.log("Zalogowano", this.state);
+            alert("Zalogowano");
         }
         
     }
+    
     render(){
-        if (!this.props.errors){
-            
-            return (
-                <>
-                    <div className="logIn">
-                        <TopMenu />
-                        <div className="wrapperLogIn">
-                            <h1>Zaloguj się</h1>
-                            <div className="decor"></div>
-                            <div className="wrapperFormLogIn">
-                                <form className="formLogIn" id="formLogIn" onSubmit={this.handleSubmit}>
-                                    <label>Email
-                                        <input type="email" name="email" autoComplete="email" value={this.state.email} onChange={this.handleChange}></input>
-                                        </label>
-                                    <div className=" errorEmail">{this.props.errors}</div>
-                                    <label>Hasło
-                                        <input type="password" name="password" value={this.state.password} onChange={this.handleChange}></input>
-                                    </label>   
-                                    <div className="error errorPassword">{this.props.errors}</div>
-                                </form>
-                            <div className="wrapperFormButtons">
-                                {/* <Link to="/logowanie"> */}
-                                    <button type="submit" form="formLogIn">Zaloguj się</button>
-                                {/* </Link> */}
-                                <Link to="/rejestracja">
-                                    <button>Załóż konto</button>
-                                </Link>
-                            </div>
-                            </div>
+        return (
+            <>
+                <div className="logIn">
+                    <TopMenu />
+                    <div className="wrapperLogIn">
+                        <h1>Zaloguj się</h1>
+                        <div className="decor"></div>
+                        <div className="wrapperFormLogIn">
+                            <form className="formLogIn" id="formLogIn" onSubmit={this.handleSubmit}>
+                                <label>Email
+                                    <input type="email" name="email" autoComplete="email" value={this.state.email} onChange={this.handleChange}></input>
+                                    </label>
+                                <div className=" errorEmail">{this.props.errors}</div>
+                                <label>Hasło
+                                    <input type="password" name="password" value={this.state.password} onChange={this.handleChange}></input>
+                                </label>   
+                                <div className="error errorPassword">{this.props.errors}</div>
+                            </form>
+                        <div className="wrapperFormButtons">
+                            <button type="submit" form="formLogIn">Zaloguj się</button>
+                            <Link to="/rejestracja">
+                                <button>Załóż konto</button>
+                            </Link>
+                        </div>
                         </div>
                     </div>
-                </>
-            )
-        }
+                </div>
+            </>
+        )
     }
 }
 
